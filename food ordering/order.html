@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <title>Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header section starts  -->
+    <header>
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>food</a>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="gallery.html">gallery</a>
+            <a href="review.html">review</a>
+            <a href="order.html">order</a>
+        </nav>
+    </header>
+    <!-- header section ends -->
+    <!-- order section starts  -->
+    <section class="order" id="order">
+        <h1 class="heading"> <span>order</span> now </h1>
+        <div class="row">
+            <div class="image">
+                <img src="images/order-img.jpg" alt="">
+            </div>
+            <form action="insert.php" method="post">
+                <div class="inputBox">
+                    <input type="text" name="name"placeholder="name">
+                    <input type="email" name="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" name="phone" placeholder="number">
+                    <input type="text"  name="foodname"   placeholder="food name">
+                </div>
+                <textarea placeholder="address" name="address" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="order now" class="btn">
+            </form>
+        </div>
+    </section>
+    <!-- order section ends -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- footer section  -->
+    <section class="footer">
+        <div class="share">
+            <a href="#" class="btn">facebook</a>
+            <a href="#" class="btn">twitter</a>
+            <a href="#" class="btn">instagram</a>
+            <a href="#" class="btn">pinterest</a>
+            <a href="#" class="btn">linkedin</a>
+        </div>
+        <h1 class="credit"> created by <span>Aman Kumar</span> | all rights reserved! </h1>
+    </section>
+</body>
+
+</html>
